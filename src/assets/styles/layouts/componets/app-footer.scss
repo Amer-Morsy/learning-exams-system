@@ -1,0 +1,17 @@
+.app-footer-container {
+  min-height: var(--footer-height);
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  text-align: center;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  // a {
+  //   font-size: var(--page-footer-font-size);
+  //   color: var(--color-text-main);
+  // }
+}

@@ -1,0 +1,18 @@
+{
+  "appLanguageClasses": {
+    "default": "app-is-ltr",
+    "ltr": "app-is-ltr",
+    "rtl": "app-is-rtl"
+  },
+  "appThemeClasses": {
+    "default": "dark-theme",
+    "dark": "dark-theme",
+    "light": "light-theme"
+  },
+  "appLayoutClasses": {
+    "default": "blank-layout",
+    "blank": "blank-layout",
+    "auth": "auth-layout",
+    "dashboard": "dashboard-layout"
+  }
+}

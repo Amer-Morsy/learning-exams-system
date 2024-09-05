@@ -1,0 +1,81 @@
+/*#region color-resets */
+/*#region fixed */
+:root {
+  --color-brand: #f05a28; /*look feel color*/
+  --color-white: #fff;
+  --color-red: #f00;
+  --color-error: #f00;
+  --color-error-trans: #ff00008a;
+}
+/*#endregion fixed */
+
+/*#region html-resets */
+html {
+  /*#region theme-resets */
+  &.dark-theme {
+    // #region main
+    // #region background
+    --color-bg-main: #000; /*nav | header*/
+    --color-bg-secondary: #060606; /*sidebar | aside*/
+    // --color-bg-sidebar: #060606; /*sidebar | aside*/
+    --color-bg-thirdy: #0c0c0c; /*footer | layer-overlay*/
+    --color-bg-forthy: #171717; /*home*/
+    --color-bg-main-trans: #00000067; /*nav | header*/
+    --color-bg-secondary-trans: #06060679; /*sidebar | aside*/
+    --color-bg-thirdy-trans: #0c0c0c62; /*footer | layer-overlay*/
+    --color-bg-forthy-trans: #171717e0; /*home*/
+    /*#endregion background */
+
+    // #region txt
+    --color-nav-text: #ffffff;
+    --color-text-main: #ffffff;
+    --color-text-lead: #ccc;
+    --color-text-secondary: #bdbdbd;
+    --color-text-thirdy: #aaa;
+    /*#endregion txt */
+
+    .navbar-icon {
+      filter: brightness(0) invert(1);
+    }
+    .actions {
+      .filtered {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+  &.light-theme {
+    // #region main
+    // #region background
+    --color-bg-main: #17a2b8;
+    --color-bg-secondary: #24c4de;
+    --color-bg-thirdy: #bdbdbd; /*footer | layer-overlay*/
+    --color-bg-forthy: #fff; /*home*/
+    --color-bg-main-trans: #bdbdbdb6; /*nav | header*/
+    --color-bg-secondary-trans: #ffffff96; /*sidebar | aside*/
+    --color-bg-thirdy-trans: #bdbdbd7a; /*footer | layer-overlay*/
+    --color-bg-forthy-trans: #aca4a4ce; /*home*/
+    /*#endregion background */
+
+    // #region txt
+    --color-nav-text: #ffffff;
+    --color-text-main: #000;
+    --color-text-lead: #0f0f0f;
+    --color-text-secondary: #161616;
+    --color-text-thirdy: #1a1717;
+    /*#endregion txt */
+
+    .navbar-icon {
+      filter: brightness(5) invert(1);
+    }
+
+    .navbar-icon-home {
+      filter: brightness(5) invert(0);
+    }
+    // #endregion navbar
+  }
+  /*#endregion theme-resets */
+}
+
+/*#endregion html-resets */
+
+/*#endregion color-resets */

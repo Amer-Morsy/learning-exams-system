@@ -1,0 +1,34 @@
+/*#endregion auth-navbar  */
+.app-navbar {
+  &.auth-navbar {
+    .auth-container {
+      .actions {
+        .actions-container {
+          cursor: pointer;
+          .login-icon {
+            path {
+              fill: var(--color-text-main);
+            }
+          }
+          &:hover {
+            .login-icon {
+              path {
+                fill: var(--color-brand);
+              }
+            }
+          }
+        }
+      }
+      .settings {
+        .settings-container {
+          .settings-icon {
+            path {
+              fill: var(--color-text-main);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*#endregion app-navbar  */

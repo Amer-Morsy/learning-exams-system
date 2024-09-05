@@ -1,0 +1,17 @@
+/*#region auth-content */
+.app-content-container {
+  min-height: calc(100vh - var(--navbar-height));
+  max-height: calc(100vh - var(--navbar-height));
+  height: calc(100vh - var(--navbar-height));
+  display: grid;
+  grid-template-rows: calc(100% - var(--footer-height)) var(--footer-height);
+  .main-content-container {
+    min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
+    height: calc(100vh - var(--navbar-height) - var(--footer-height));
+  }
+  .app-footer {
+    min-height: var(--footer-height);
+  }
+}
+/*#endregion auth-content */
+@import url("./app-footer.scss");

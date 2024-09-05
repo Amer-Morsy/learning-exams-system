@@ -1,0 +1,38 @@
+/*#region dashboard-navbar */
+.app-navbar {
+  &.dashboard-navbar {
+    .dashboard-container {
+      grid-template-columns: calc(var(--sidebar-width-open) - var(--app-gab)) auto auto 0.1fr;
+      .actions {
+        width: 100%;
+        .actions-container {
+          width: 100%;
+          display: grid;
+          grid-template-columns: auto auto;
+          align-items: center;
+          gap: var(--app-gab);
+          .navbar-icon {
+            cursor: pointer;
+          }
+          .toggel-sidebar-icon {
+            cursor: pointer;
+            justify-self: end;
+          }
+        }
+      }
+      .prand {
+        justify-self: start;
+      }
+      .page-actions {
+        justify-self: end;
+        display: flex;
+        gap: var(--app-gab);
+        .icon-sc {
+          cursor: pointer;
+          scale: 1.2;
+        }
+      }
+    }
+  }
+}
+/*#endregion dashboard-navbar */

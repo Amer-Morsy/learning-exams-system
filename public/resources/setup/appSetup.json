@@ -1,0 +1,20 @@
+{
+  "appSetupData": {
+    "appLanguages": {
+      "default": "en-US",
+      "enUS": "en-US",
+      "arEG": "ar-EG"
+    },
+    "appThemes": {
+      "default": "dark",
+      "dark": "dark",
+      "light": "light"
+    },
+    "appLayouts": {
+      "default": "blank",
+      "blank": "blank",
+      "auth": "auth",
+      "dashboard": "dashboard"
+    }
+  }
+}

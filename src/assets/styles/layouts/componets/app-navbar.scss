@@ -1,0 +1,29 @@
+/*#region app-navbar */
+.app-navbar {
+  .navbar-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding-inline: var(--app-gab);
+    gap: 0 var(--app-gab);
+    align-content: center;
+    .actions,
+    .prand,
+    .settings {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .actions {
+      justify-self: start;
+    }
+    .prand {
+      justify-self: center;
+    }
+    .settings {
+      justify-self: end;
+    }
+  }
+}
+/*#endregion app-navbar  */

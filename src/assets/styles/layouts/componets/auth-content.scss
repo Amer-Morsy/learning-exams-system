@@ -1,0 +1,7 @@
+/*#region auth-content */
+.auth-content {
+  .auth-content-container {
+    min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
+  }
+}
+/*#endregion auth-content */

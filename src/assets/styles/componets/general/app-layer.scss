@@ -1,0 +1,52 @@
+.app-content {
+  .app-content-layer {
+    display: grid;
+    grid-template-rows: var(--navbar-height) calc(100% - var(--navbar-height));
+    grid-template-columns: 100%;
+    border: 1px solid;
+    width: 100%;
+    // height: calc(100% - var(--footer-height));
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    background: var(--color-bg-forthy-trans);
+    backdrop-filter: blur(5px);
+    z-index: 98;
+    .app-layer-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .close-layer {
+        cursor: pointer;
+      }
+    }
+    .app-layer-container {
+      position: relative;
+    }
+    &.dashboard {
+      grid-template-rows: 100%;
+      &.left {
+        &.sidebar-opend {
+          width: calc(100% - var(--sidebar-width-open));
+          left: var(--sidebar-width-open);
+        }
+        &.sidebar-closed {
+          width: calc(100% - var(--sidebar-width-close));
+          left: var(--sidebar-width-close);
+        }
+      }
+      &.right {
+        &.sidebar-opend {
+          width: calc(100% - var(--sidebar-width-open));
+          right: var(--sidebar-width-open);
+        }
+        &.sidebar-closed {
+          width: calc(100% - var(--sidebar-width-close));
+          right: var(--sidebar-width-close);
+        }
+      }
+    }
+  }
+}

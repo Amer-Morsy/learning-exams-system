@@ -1,0 +1,34 @@
+$app_gab: 10px;
+:root {
+  /*#region general */
+  --app-gab: 1rem;
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+  --input-height: 50px;
+  --main-line-height: 1.7;
+  --secondary-line-height: 1.5;
+  --thirdy-line-height: 1.25;
+  --tran-01: all 0.1s ease;
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s cubic-bezier(0.71, -0.93, 0.3, 1.19);
+  /*#endregion general */
+
+  /*#region navbar */
+  --navbar-height: 3.3rem;
+  /*#endregion navbar */
+
+  /*#region sidebar */
+  --sidebar-width-close: 70px;
+  --sidebar-width-open: 260px;
+  /*#endregion sidebar */
+
+  /*#region footer */
+  --footer-height: 2.5rem;
+  /*#endregion footer */
+  /*#region BottomSheet */
+  --bottom-sheet-header-height: 80px;
+  --bottom-sheet-body-height: calc(100% - var(--bottom-sheet-header-height));
+  /*#endregion BottomSheet */
+}
