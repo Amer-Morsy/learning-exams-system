@@ -1,24 +1,71 @@
-<h1 align="center">LXS-DEV ( WEB - Vue.Js ) </h1>
+<h1 align="center">Learning Exams System (LXS-DEV)</h1>
+
+- ### Overview:
+
+## System Code: LXS
+
+## System Name: Learning Exams System
+
+## Platform: WEB
+
+## Programming Language: Vue.js (Node.js v14.12.0)
+
+## Project Name: DEV
+
+## Target Group: All Users
+
+--
+
+<p align="center">
+  <img width="300" height="300" src="./src/assets/images/img1.jpeg">
+  <img width="300" height="300" src="./src/assets/images/img2.jpeg">
+  <img width="300" height="300" src="./src/assets/images/img3.jpeg">
+  <img width="300" height="300" src="./src/assets/images/img4.jpeg">
+</p>
+
+---
+
+- ### Features:
+
+## User-friendly interface for managing exams
+
+## Real-time data visualization with Chart.js
+
+## Responsive design for all devices
+
+## Secure authentication and authorization
+
+## Integration with API for backend services
+
+## Multi-language support with vue-i18n
+
+## File management with vue-file-agent
+
+## Calendar integration with v-calendar
+
+- ### Technologies Used:
+
+## Vue.js
+
+## Node.js
+
+## Chart.js
+
+## Firebase
+
+## Bootstrap & Bootstrap-Vue
+
+## Axios
+
+## ESLint for code linting
+
+## Babel for JavaScript compilation
+
+## Project setup
 
 <p align="center">
   <img width="250" height="250" src="./src/assets/images/logo.png">
 </p>
-
-- ### System code: `(LXS)`
-
-- ### System name: `(Learning Exames System)`
-
-- ### Platform: `(WEB)`
-
-- ### Programming Language: `(Vue.JS-npm: --v 14.12.0)`
-
-- ### Project name: `(DEV)`
-
-- ### Target group type: `(All Users)`
-
----
-
-## Project setup
 
 ```
 npm install
@@ -88,6 +135,4 @@ import Chart from 'chart.js/auto';
 
 ---
 
-
-## Amer 
-
+## Amer

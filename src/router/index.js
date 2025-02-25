@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import i18n from "../i18n/index";
-import store from "../store";
+// import store from "../store";
 import { USER_TYPE } from "../utils/constantLists";
 import {
   USER_MODEL_NAME,
@@ -620,31 +620,31 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   document.title = `${to.meta.pageName} | ${i18n.t("projectName")}`;
 
-  if (store.getters.invalidLoginCodeStatus && to.name != "InvalidLoginClode") {
-    return next({ name: "InvalidLoginClode" });
-  }
+  // if (store.getters.invalidLoginCodeStatus && to.name != "InvalidLoginClode") {
+  //   return next({ name: "InvalidLoginClode" });
+  // }
 
-  if (to.matched.some((res) => res.meta.layout == APPLAYOUTS.dashboard)) {
-    if (!store.getters.loginStatus) {
-      return next({ name: "Home" });
-    } else {
-      if (to.name == "Privileges") {
-        let hasUpdate = PrivilegeController.hasUpdate(
-          PrivilegeController.getPrivilegeModuleTokens()[to.params.modelName]
-        );
-        if (!hasUpdate) return next({ name: "Error404" });
-      } else if (to.name == "Home") {
-        return next({ name: "Home" });
-      } else {
-        let hasView = PrivilegeController.hasView(to.meta.privilegeModuleToken);
-        if (!hasView) return next({ name: "Home" });
-      }
-    }
-  }
+  // if (to.matched.some((res) => res.meta.layout == APPLAYOUTS.dashboard)) {
+  //   if (!store.getters.loginStatus) {
+  //     return next({ name: "Home" });
+  //   } else {
+  //     if (to.name == "Privileges") {
+  //       let hasUpdate = PrivilegeController.hasUpdate(
+  //         PrivilegeController.getPrivilegeModuleTokens()[to.params.modelName]
+  //       );
+  //       if (!hasUpdate) return next({ name: "Error404" });
+  //     } else if (to.name == "Home") {
+  //       return next({ name: "Home" });
+  //     } else {
+  //       let hasView = PrivilegeController.hasView(to.meta.privilegeModuleToken);
+  //       if (!hasView) return next({ name: "Home" });
+  //     }
+  //   }
+  // }
 
-  if (store.getters.loginStatus && (to.name == "Home" || to.name == "Login")) {
-    return next({ name: "Home" });
-  }
+  // if (store.getters.loginStatus && (to.name == "Home" || to.name == "Login")) {
+  //   return next({ name: "Home" });
+  // }
 
   return next();
 });
