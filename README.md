@@ -1,18 +1,18 @@
 <h1 align="center">Learning Exams System (LXS-DEV)</h1>
 
-- ## Overview:
+## Overview:
 
-### System Code: LXS
+  #### System Code: LXS
 
-### System Name: Learning Exams System
+  #### System Name: Learning Exams System
 
-### Platform: WEB
+  #### Platform: WEB
 
-### Programming Language: Vue.js (Node.js v14.12.0)
+  #### Programming Language: Vue.js (Node.js v14.12.0)
 
-### Project Name: DEV
+  #### Project Name: DEV
 
-### Target Group: All Users
+  #### Target Group: All Users
 
 --
 
@@ -25,41 +25,41 @@
 
 ---
 
-- ## Features:
+## Features:
 
-### User-friendly interface for managing exams
+  #### User-friendly interface for managing exams
 
-### Real-time data visualization with Chart.js
+  #### Real-time data visualization with Chart.js
 
-### Responsive design for all devices
+  #### Responsive design for all devices
 
-### Secure authentication and authorization
+  #### Secure authentication and authorization
 
-### Integration with API for backend services
+  #### Integration with API for backend services
 
-### Multi-language support with vue-i18n
+  #### Multi-language support with vue-i18n
 
-### File management with vue-file-agent
+  #### File management with vue-file-agent
 
-### Calendar integration with v-calendar
+  #### Calendar integration with v-calendar
 
-- ## Technologies Used:
+## Technologies Used:
 
-### Vue.js
+  #### Vue.js
 
-### Node.js
+  #### Node.js
 
-### Chart.js
+  #### Chart.js
 
-### Firebase
+  #### Firebase
 
-### Bootstrap & Bootstrap-Vue
+  #### Bootstrap & Bootstrap-Vue
 
-### Axios
+  #### Axios
 
-### ESLint for code linting
+  #### ESLint for code linting
 
-### Babel for JavaScript compilation
+  #### Babel for JavaScript compilation
 
 ### Project setup
 
@@ -134,4 +134,3 @@ import Chart from 'chart.js/auto';
 ```
 
 ---
-
